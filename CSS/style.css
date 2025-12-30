@@ -1,0 +1,206 @@
+/* ===== ESTILOS GENERALES ===== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b0f1a;
+    color: white;
+}
+
+/* ===== BANNER SUPERIOR ===== */
+.banner {
+    height: 300px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* centra horizontal */
+    align-items: center;     /* centra vertical */
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+}
+
+.banner-content {
+    background-color: rgba(0, 0, 0, 0.6); /* fondo oscuro semitransparente */
+    padding: 30px 50px;
+    border-radius: 12px;
+}
+
+.banner-content h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #1abcff;
+}
+
+.banner-content h2 {
+    margin: 10px 0;
+    font-size: 1.6em;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.banner-content p {
+    font-size: 1.1em;
+    color: #d0eaff;
+}
+
+/* ===== NAVEGACIÓN CENTRADA ===== */
+nav {
+    background-color: #000814;
+    text-align: center;
+    padding: 12px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #1abcff;
+    transition: 0.3s;
+}
+
+/* ===== CONTENIDO ===== */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #111827;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+/* ===== IMÁGENES ===== */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+}
+
+/* ===== BOTONES ===== */
+.btn {
+    background-color: #1abcff;
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0aa1dd;
+}
+
+/* ===== FORMULARIOS ===== */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: #1f2933;
+    color: white;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #000814;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: #aaa;
+}
+.games-page {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Banner específico */
+.games-page .banner {
+    height: 250px;
+    background-image: url('../images/games-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.games-page .banner-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px 50px;
+    border-radius: 12px;
+}
+
+.games-page .banner-content h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #1abcff;
+}
+
+.games-page .banner-content p {
+    font-size: 1.2em;
+    color: #d0eaff;
+}
+
+/* Contenedor y juegos */
+.games-page .container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #111827;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.games-page .game img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+}
+
+.games-page .game a {
+    color: #1abcff;
+    text-decoration: none;
+}
+
+.games-page .game a:hover {
+    text-decoration: underline;
+}
+
+/* Footer específico */
+.games-page footer {
+    background-color: #000814;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: #aaa;
+}
+/* Archivo: games.css (o tu CSS de la página) */
+
+/* Aplica a todas las imágenes */
+img {
+    width: 250px;       /* Ajusta este valor para cambiar el tamaño de todas las imágenes */
+    height: auto;       /* Mantiene la proporción */
+    display: block;     
+    margin: 10px auto;  /* Centra horizontalmente */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Sombra opcional */
+    transition: transform 0.3s; /* Efecto al pasar el cursor */
+}
+
+img:hover {
+    transform: scale(1.05); /* Pequeño efecto de zoom al pasar el mouse */
+}
+
+
